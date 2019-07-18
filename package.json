@@ -1,9 +1,8 @@
 {
-  "name": "@appgeist/storage-example-simple",
+  "name": "@appgeist/storage-example-with-auth",
   "version": "1.0.0",
   "description": "A sample project to demonstrate the usage of @appgeist/storage with authentication",
   "main": "index.js",
-  "repository": "https://github.com/appgeist/storage-example-with-auth",
   "author": {
     "name": "Ionut-Cristian Florescu",
     "email": "ionut.florescu@gmail.com",
