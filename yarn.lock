@@ -37,10 +37,10 @@
   resolved "https://registry.yarnpkg.com/@appgeist/get-file-from-url/-/get-file-from-url-1.0.9.tgz#243e88acde54c128fdf1a247a878f7a1266e2cc6"
   integrity sha512-XR3wmKyF71QfdLaqj0cbc9AYfndhVogIxF4lGjOl+49xDpnH6dX98mdgUCvvoyjmkprbXD4x+PcJ+1YzPu1qXQ==
 
-"@appgeist/storage@^1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@appgeist/storage/-/storage-1.3.1.tgz#d3063b8203259f5e4c5ddee8fb1b3289a968e2cf"
-  integrity sha512-L1HQfSjMqt+FZ7+XhqLfKQftCvh2LgUw1tq0JC+ptFp+PuN1pLbY+Ir/qG32+Te42oMvYZqyMRyFNUb9Qi4Thg==
+"@appgeist/storage@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@appgeist/storage/-/storage-1.4.0.tgz#170ff04a2d84eb183d422e7ddd7a230c337e15ff"
+  integrity sha512-k4jb0uC8y8jqFOowTmQuO3os7MTIvZvQ/qfe+/pW2qwwCtJh+TecBiFUf8oMlIf40vocfXytNP75Hp2gvvYWJg==
   dependencies:
     "@appgeist/ensure-dir" "^1.0.7"
     "@appgeist/exec" "^1.0.9"
@@ -144,6 +144,13 @@
     esutils "^2.0.2"
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
+
+"@types/http-status-codes@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@types/http-status-codes/-/http-status-codes-1.2.0.tgz#6e5244835aaf7164dd306f1d4d2dfdbb2159d909"
+  integrity sha512-vjpjevMaxtrtdrrV/TQNIFT7mKL8nvIKG7G/LjMDZdVvqRxRg5SNfGkeuSaowVc0rbK8xDA2d/Etunyb5GyzzA==
+  dependencies:
+    http-status-codes "*"
 
 abbrev@1:
   version "1.1.1"
@@ -1499,6 +1506,11 @@ http-errors@~1.7.2:
     setprototypeof "1.1.1"
     statuses ">= 1.5.0 < 2"
     toidentifier "1.0.0"
+
+http-status-codes@*, http-status-codes@^1.3.2:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/http-status-codes/-/http-status-codes-1.3.2.tgz#181dfa4455ef454e5e4d827718fca3936680d10d"
+  integrity sha512-nDUtj0ltIt08tGi2VWSpSzNNFye0v3YSe9lX3lIqLTuVvvRiYCvs4QQBSHo0eomFYw1wlUuofurUAlTm+vHnXg==
 
 iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4:
   version "0.4.24"
